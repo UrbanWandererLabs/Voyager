@@ -1,28 +1,55 @@
-# Create T3 App
+![Placeholder Logo](https://raw.githubusercontent.com/jehna/readme-best-practices/master/sample-logo.png)
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+# Voyager
+>  A travel app for finding new experiences in far-flung places 
 
-## What's next? How do I make an app with this?
+Voyager is your one-stop shop for planning your dream trip itinerary! Plan a solo adventure or bring a few of your friends in to plan something together, and let our proprietary AI suggestions guide you towards interesting adventures that are off the beaten path. You'll never have another boring vacation again!
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Installing / Getting started
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+To start the frontend server, run the following commands: 
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+```shell
+npm run dev
+```
 
-## Learn More
+As the Postgres instance is hosted on Render, there is no need to spin up a separate Node server for the backend.
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### Initial Configuration
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+In order to update your local dependencies to their latest versions, simply run:
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+```shell
+npm install
+```
 
-## How do I deploy this?
+## Developing
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+In order to get started as a developer on Voyager, simply clone the project to your local environment and install dependencies:
+
+```shell
+git clone https://github.com/UrbanWandererLabs/Voyager.git
+cd ~/[your local dev directory]/Voyager
+npm install
+```
+
+
+## Features
+
+Plan your trip with a variety of tools!
+* Set your location and dates, and add your activities to your itinerary and see them on a map!
+* Allow AI to generate some trip suggestions for you, so that you can focus on experiencing new things!
+* Collaborate with your tripmates so that you can all be on the same page!
+
+## Contributing
+
+If you'd like to contribute, please fork the repository and use a feature
+branch. Pull requests are warmly welcome."
+
+## Links
+
+TO-DO
+
+## Licensing
+
+The code in this project is licensed under the MIT license.
